@@ -1,0 +1,24 @@
+Celem ćwiczenia jest zapoznanie się z robotem go2 edu, a w szczególności:
+
+- z architekturą robota go2 edu, MTU – NVIDIA Jetson
+
+- z systemem Ubuntu, Cyclone DDS, konsiguracją sieci
+
+- autorskim monitorem za zarządcą zdarzeń i aplikacji
+
+- docker z Ununtu 22.04 oraz Cyclone DDS
+
+- ROS 2 foxy (na robocie go2) oraz humble (docker)
+
+- podstawowoymi sensorami – kamera RGB oraz lidar
+
+- dodatkowymi sensorami – kamera Intel D435 oraz lidar Heasi X16
+
+W sparwozdaniu należy omówić w/w architektuę oraz sensory pokładowe.
+
+Należy przeanalizować prace naukowe dotyczące robota go2 edu.
+
+Nalezy pzreanalizować I omówić (skomentować) zaprezentowany na zajęciach scenariusz z przemieszzcającą się osobą oraz robotem oraz możliwą kolizją, w szczególności w kontekście zastosowania predykcji ruchu celem unikcięcia kolizji.
+
+Należy także przezanalizować zasadność użycia mediaPIpe I YOLO do detekcji szkieletu reprezentującego osobę w widoku kamery.
+
