@@ -1,0 +1,63 @@
+{
+  "overall": {
+    "count": 600,
+    "mean_iou": 0.7869678034385046,
+    "median_iou": 0.7936160266399384,
+    "iou_ge_0.5": 0.9966666666666667,
+    "iou_ge_0.75": 0.6666666666666666
+  },
+  "known_emoji": {
+    "count": 100,
+    "mean_iou": 0.8274238580465316,
+    "median_iou": 0.8354810774326324,
+    "iou_ge_0.5": 1.0,
+    "iou_ge_0.75": 0.8
+  },
+  "unknown_emoji": {
+    "count": 500,
+    "mean_iou": 0.7788765925168991,
+    "median_iou": 0.7872759997844696,
+    "iou_ge_0.5": 0.996,
+    "iou_ge_0.75": 0.64
+  },
+  "known_classification_accuracy": 0.13,
+  "unknown_predicted_class_distribution": {
+    "skeptical": 41,
+    "crying": 90,
+    "laughing": 273,
+    "puking": 65,
+    "whoa": 23,
+    "nervous": 6,
+    "cool": 1,
+    "sad": 1
+  },
+  "per_file": {
+    "1F60D.png": {
+      "mean_iou": 0.698729709982872,
+      "known_class": null
+    },
+    "1F618.png": {
+      "mean_iou": 0.774051263332367,
+      "known_class": null
+    },
+    "1F62B.png": {
+      "mean_iou": 0.8131898558139801,
+      "known_class": null
+    },
+    "1F62F.png": {
+      "mean_iou": 0.8274238580465316,
+      "known_class": 5
+    },
+    "1F632.png": {
+      "mean_iou": 0.8141678082942962,
+      "known_class": null
+    },
+    "1F637.png": {
+      "mean_iou": 0.7942443251609802,
+      "known_class": null
+    }
+  },
+  "model_path": "models/emoji_detector_w10.pth",
+  "checkpoint_val_iou": 0.7485026121139526,
+  "checkpoint_best_epoch": 8
+}

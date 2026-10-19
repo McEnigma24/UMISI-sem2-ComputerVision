@@ -1,0 +1,7 @@
+torch==2.14.1+cu126
+torchvision==0.29.1+cu126
+numpy==2.5.2
+matplotlib==3.11.2
+pillow==12.3.0
+ultralytics==8.4.182
+opencv-python-headless==5.0.0.93
