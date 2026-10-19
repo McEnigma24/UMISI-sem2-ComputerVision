@@ -1,0 +1,2 @@
+./zip_lab.sh --small --split 95m lab02
+
